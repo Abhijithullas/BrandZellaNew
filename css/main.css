@@ -5350,6 +5350,8 @@ body.modal-open {
 
 	.intro_section p {
 		color: #000000;
+		font-size: 20px;
+		line-height: normal;
 	}
 
 	.intro_section .flex-control-paging li a,
@@ -12776,7 +12778,9 @@ isotope portfolio and gallery pos
 .w-300 {
 	width: 300px;
 }
-
+.w-500 {
+	width: 500px;
+}
 .page_header.transparent_header  .logo_image img {
 	display: none;
 }
