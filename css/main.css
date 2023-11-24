@@ -4375,7 +4375,7 @@ a.logo.vertical_logo img {
 }
 
 .page_header.transparent_header {
-	margin-bottom: -106px;
+	margin-bottom: -110px;
 	padding-right: 20px;
 	padding-left: 20px;
 }
@@ -5349,7 +5349,7 @@ body.modal-open {
 	}
 
 	.intro_section p {
-		color: #616161;
+		color: #000000;
 	}
 
 	.intro_section .flex-control-paging li a,
@@ -8883,8 +8883,12 @@ aside .widget_tag_cloud a:hover {
 	top: 3px;
 	max-height: 0;
 	opacity: 0;
-	-webkit-transition: opacity 0.4s ease-in-out 0.4s, max-height 0.4s ease-in 0s, top 0.2s ease-in 0.4s;
-	transition: opacity 0.4s ease-in-out 0.4s, max-height 0.4s ease-in 0s, top 0.2s ease-in 0.4s;
+	-webkit-transition: opacity 0.4s ease-in-out 0.4s,
+ max-height 0.4s ease-in 0s,
+ top 0.2s ease-in 0.4s;
+	transition: opacity 0.4s ease-in-out 0.4s,
+ max-height 0.4s ease-in 0s,
+ top 0.2s ease-in 0.4s;
 }
 
 .item-type2 .content-body {
@@ -12767,4 +12771,15 @@ isotope portfolio and gallery pos
 
 .checkbox-slider--b-flat input + span:before {
 	box-shadow: none;
+}
+
+.w-300 {
+	width: 300px;
+}
+
+.page_header.transparent_header  .logo_image img {
+	display: none;
+}
+.page_header.transparent_header.affix .logo_image img { 
+	display: block;
 }
