@@ -241,7 +241,7 @@ textarea,
 select,
 .form-control {
 	border: none;
-	height: 40px;
+	height: 41px;
 	border: 1px solid rgba(48, 48, 48, 0.5);
 	background-color: transparent;
 	border-radius: 0;
@@ -6681,7 +6681,7 @@ h2.search-title {
 
 #isotope_filters a,
 .filters a {
-	padding: 17px 30px;
+	padding: 5px 10px;
 	display: inline-block;
 	font-family: 'Josefin Sans', sans-serif;
 	font-weight: 700;
@@ -12798,4 +12798,16 @@ isotope portfolio and gallery pos
 }
 .border-0 {
 	border-radius: 0;
+}
+
+input[type=file] {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	cursor: pointer;
+	opacity: 0;
+	filter: alpha(opacity=0);
 }

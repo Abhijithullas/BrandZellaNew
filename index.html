@@ -34,6 +34,20 @@
 			padding: 0px 15px 0px 40px;
 			left: 10%;
 		}
+
+		.modal-header .close {
+			margin-top: -22px;
+		}
+
+		.btn {
+			padding: 10px 20px;
+			text-transform: uppercase;
+			margin: 0 0 6px 0;
+			border: 1px solid #ccc;
+		}
+		.form-group {
+			margin-bottom: 0px;
+		}
 	</style>
 </head>
 
@@ -358,8 +372,9 @@
 													works</h2>
 											</div>
 											<div class="filters isotope_filters">
-												<a href="#" data-filter="*" class="selected">All</a>
-												<a href="#" data-filter=".fashion">Designer Fashion Shoot</a>
+												<!-- <a href="#" data-filter="*">All</a> -->
+												<a href="#" data-filter=".fashion" class="selected">Designer Fashion
+													Shoot</a>
 												<a href="#" data-filter=".studio">Kids Shoots</a>
 												<a href="#" data-filter=".session">Festive Moments</a>
 											</div>
@@ -1646,18 +1661,215 @@
 	</div>
 
 	<!-- eof #canvas -->
-	<div class="modal fade bd-example-modal-lg border-0" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+	<div class="modal fade bd-example-modal-lg border-0" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+		aria-hidden="true">
 		<div class="modal-dialog modal-lg">
 			<div class="modal-content border-0">
 				<div class="modal-header">
-					<h5 class="modal-title text-center" id="exampleModalLongTitle">MODELING AGENCY "FASHIONMODELS" IS VERY INTERESTED IN NEW MODELS</h5>
+					<h5 class="modal-title text-center" id="exampleModalLongTitle">MODELING AGENCY "FASHIONMODELS" IS
+						VERY INTERESTED IN NEW MODELS</h5>
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 						<span aria-hidden="true">&times;</span>
 					</button>
 				</div>
 				<div class="modal-body">
-					...
-				  </div>
+					<section class="ls">
+						<div class="container">
+							<div class="row">
+								<form class="" role="form">
+									<div class="row">
+										<div class="col-sm-6">
+											<div class="form-group validate-required" id="billing_first_name_field">
+												<label for="billing_first_name" class="control-label">
+													<span class="grey">Surname </span>
+												</label>
+												<input type="text" class="form-control " name="billing_first_name"
+													id="billing_first_name" placeholder="" value="">
+											</div>
+										</div>
+										<div class="col-sm-6">
+											<div class="form-group validate-required" id="billing_last_name_field">
+												<label for="billing_last_name" class="control-label">
+													<span class="grey"> Name </span>
+												</label>
+												<input type="text" class="form-control " name="billing_last_name"
+													id="billing_last_name" placeholder="" value="">
+											</div>
+										</div>
+
+										<div class="col-sm-6">
+											<div class="form-group address-field validate-required"
+												id="billing_city_field">
+												<label for="billing_city" class="control-label">
+													<span class="grey">Age </span>
+												</label>
+
+												<input type="text" class="form-control " name="billing_city"
+													id="billing_city" placeholder="Town / City" value="">
+											</div>
+										</div>
+										<div class="col-sm-6">
+											<div class="form-group address-field validate-required"
+												id="billing_city_field">
+												<label for="billing_city" class="control-label">
+													<span class="grey">Height (cm) </span>
+												</label>
+
+												<input type="text" class="form-control " name="billing_city"
+													id="billing_city" placeholder="Town / City" value="">
+											</div>
+										</div>
+										<div class="col-sm-6">
+											<div class="form-group address-field validate-required"
+												id="billing_city_field">
+												<label for="billing_city" class="control-label">
+													<span class="grey">Breast volume (cm) </span>
+												</label>
+
+												<input type="text" class="form-control " name="billing_city"
+													id="billing_city" placeholder="Town / City" value="">
+											</div>
+										</div>
+										<div class="col-sm-6">
+											<div class="form-group address-field validate-required"
+												id="billing_city_field">
+												<label for="billing_city" class="control-label">
+													<span class="grey">Waist (cm) </span>
+												</label>
+
+												<input type="text" class="form-control " name="billing_city"
+													id="billing_city" placeholder="Town / City" value="">
+											</div>
+										</div>
+										<div class="col-sm-6">
+											<div class="form-group address-field validate-required"
+												id="billing_city_field">
+												<label for="billing_city" class="control-label">
+													<span class="grey">Hips (cm) </span>
+												</label>
+
+												<input type="text" class="form-control " name="billing_city"
+													id="billing_city" placeholder="Town / City" value="">
+											</div>
+										</div>
+										<div class="col-sm-6">
+											<div class="form-group address-field validate-required"
+												id="billing_city_field">
+												<label for="billing_city" class="control-label">
+													<span class="grey">Country</span>
+												</label>
+
+												<input type="text" class="form-control " name="billing_city"
+													id="billing_city" placeholder="Town / City" value="">
+											</div>
+										</div>
+										<div class="col-sm-6">
+											<div class="form-group address-field validate-required"
+												id="billing_city_field">
+												<label for="billing_city" class="control-label">
+													<span class="grey">City</span>
+												</label>
+
+												<input type="text" class="form-control " name="billing_city"
+													id="billing_city" placeholder="Town / City" value="">
+											</div>
+										</div>
+										<div class="col-sm-6">
+											<div class="form-group address-field validate-required"
+												id="billing_city_field">
+												<label for="billing_city" class="control-label">
+													<span class="grey">Phone Number</span>
+													<span class="required">*</span>
+												</label>
+
+												<input type="text" class="form-control " name="billing_city"
+													id="billing_city" placeholder="Town / City" value="">
+											</div>
+										</div>
+										<div class="col-sm-6">
+											<div class="form-group address-field validate-required"
+												id="billing_city_field">
+												<label for="billing_city" class="control-label">
+													<span class="grey">Email</span>
+													<span class="required">*</span>
+												</label>
+
+												<input type="text" class="form-control " name="billing_city"
+													id="billing_city" placeholder="Town / City" value="">
+											</div>
+										</div>
+										<div class="col-sm-6">
+											<div class="form-group address-field validate-required"
+												id="billing_city_field">
+												<label for="billing_city" class="control-label">
+													<span class="grey">Link in Instagram</span>
+												</label>
+
+												<input type="text" class="form-control " name="billing_city"
+													id="billing_city" placeholder="Town / City" value="">
+											</div>
+										</div>
+										<div class="col-sm-6 mb-2">
+											<div class="form-group address-field validate-required"
+												id="billing_city_field">
+												<label for="billing_city" class="control-label">
+													<span class="grey">Face photo (large)</span>
+												</label>
+												<div class="input-group">
+													<span class="input-group-btn">
+														<div class="btn btn-default browse-button">
+															<span class="browse-button-text">
+																<i class="fa fa-folder-open"></i> Browse</span>
+															<input type="file" accept=".pdf" name="attachment" />
+														</div>
+														<button type="button" class="btn btn-default clear-button"
+															style="display:none;">
+															<span class="fa fa-times"></span> Clear
+														</button>
+													</span>
+													<input type="text" class="form-control filename" disabled="disabled"
+														placeholder="Please click on browse button and select a file">
+												</div>
+											</div>
+										</div>
+										<div class="col-sm-6 mb-2">
+											<div class="form-group address-field validate-required"
+												id="billing_city_field">
+												<label for="billing_city" class="control-label">
+													<span class="grey">Photos figures (full-length):</span>
+												</label>
+												<div class="input-group">
+													<span class="input-group-btn">
+														<div class="btn btn-default browse-button">
+															<span class="browse-button-text">
+																<i class="fa fa-folder-open"></i> Browse</span>
+															<input type="file" accept=".pdf" name="attachment" />
+														</div>
+														<button type="button" class="btn btn-default clear-button"
+															style="display:none;">
+															<span class="fa fa-times"></span> Clear
+														</button>
+													</span>
+													<input type="text" class="form-control filename" disabled="disabled"
+														placeholder="Please click on browse button and select a file">
+												</div>
+											</div>
+										</div>
+										<div class="col-sm-12">
+											<label for="message">Experience, if available: </label>
+											<textarea aria-required="true" rows="3" cols="45" name="experience" id="experience" class="form-control" placeholder="Experience, if available"></textarea>
+										</div>
+										<div class="col-sm-12">
+
+											<button type="submit" class="theme_button wide_button color1">Send</button>
+											<button type="reset" class="theme_button wide_button">Clear Form</button>
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+					</section>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -1667,7 +1879,24 @@
 	<script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
 	<script src="js/compressed.js"></script>
 	<script src="js/main.js"></script>
+	<script>
 
+		$(".browse-button input:file").change(function () {
+			$("input[name='attachment']").each(function () {
+				var fileName = $(this).val().split('/').pop().split('\\').pop();
+				$(".filename").val(fileName);
+				$(".browse-button-text").html('<i class="fa fa-refresh"></i> Change');
+				$(".clear-button").show();
+			});
+		});
+
+		$('.clear-button').click(function () {
+			$('.filename').val("");
+			$('.clear-button').hide();
+			$('.browse-button input:file').val("");
+			$(".browse-button-text").html('<i class="fa fa-folder-open"></i> Browse');
+		}); 
+	</script>
 </body>
 
 
