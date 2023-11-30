@@ -12822,3 +12822,12 @@ input[type=file] {
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.bgtext {
+	background-color: #ccccccab;
+    padding: 30px;
+}
+
+.abteam {
+	font-size: 18px;
+    color: #000;
+}
