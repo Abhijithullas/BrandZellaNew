@@ -12811,3 +12811,8 @@ input[type=file] {
 	opacity: 0;
 	filter: alpha(opacity=0);
 }
+.teamimg {
+	max-width: 25%;
+	margin: auto;
+	border-radius: 5px;
+}
